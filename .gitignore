@@ -1,0 +1,25 @@
+# Pharmacy Management System Git Ignore
+
+# XAMPP/PHP specific
+config/constants.php
+assets/uploads/*
+!assets/uploads/.gitkeep
+
+# Logs and temporary files
+*.log
+tmp/
+.temp/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Git files
+.git/
