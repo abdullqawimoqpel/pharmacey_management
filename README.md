@@ -1,76 +1,62 @@
-# Saudi Pharmacy Management System | نظام إدارة صيدلية السعودية
+# Pharmacy Management System
 
-A modern, responsive, and secure Pharmacy Management System built with PHP and MySQL. Designed for ease of use with full support for both Arabic and English languages.
+A professional, secure, and modern Pharmacy Management System designed for pharmacies and medical stores. Built with PHP and MySQL, it offers a clean user interface and robust inventory control.
 
-نظام إدارة صيدلية حديث، مستجيب، وآمن مبني باستخدام PHP و MySQL. مصمم لسهولة الاستخدام مع دعم كامل للغتين العربية والإنجليزية.
+## 🌟 Key Features
 
----
+### 📊 Business Dashboard
+*   **Real-time Analytics:** Monitor total sales, revenue, and customer count.
+*   **Automated Alerts:** Get immediate notifications for low stock, expiring medicines, and expired products.
+*   **Daily Summaries:** Track today's performance with revenue and invoice counts.
 
-## 🚀 Features | المميزات
+### 💰 Professional Point of Sale (POS)
+*   **Quick Search Interface:** Find medications instantly by name or category.
+*   **Smart Cart:** Handles taxes (5% VAT), discounts, and subtotal calculations automatically.
+*   **Instant Stock Update:** Inventory levels are deducted automatically upon sale completion.
+*   **Invoice Management:** Generates professional receipts with transaction details.
 
-### 📊 Advanced Dashboard | لوحة تحكم متقدمة
-*   **Real-time Statistics:** Track total medicines, customers, and revenue.
-*   **Alert System:** Get notified for low stock levels and expiring/expired medicines.
-*   **Today's Summary:** Quick overview of sales and revenue for the current day.
+### 📦 Comprehensive Inventory Management
+*   **Full CRUD Support:** Add, edit, or remove medicines with ease.
+*   **Batch Tracking:** Keep track of batch numbers and specific stock levels.
+*   **Expiry Control:** Automatic categorisation of stock by expiry status (Safe, Expiring Soon, Expired).
+*   **Supplier & Customer DB:** Maintain records for wholesale suppliers and regular customers.
 
-### 💰 Point of Sale (POS) | نظام البيع
-*   **Smart Search:** Quickly find medicines by name or barcode.
-*   **Automatic Calculations:** Automated handling of 5% tax and discounts.
-*   **Stock Sync:** Inventory levels update instantly with every sale.
-*   **Invoice Generation:** Print professional receipts for customers.
+### 🌍 Localization
+*   **Bilingual Support:** Full support for English (LTR) and Arabic (RTL).
+*   **Dynamic UI:** The interface shifts layout based on the selected language.
 
-### 📦 Inventory & Medicine Management | إدارة المخزون والأدوية
-*   **Stock Tracking:** Monitor quantity, batch numbers, and reorder levels.
-*   **Expiry Management:** Track expiry dates to ensure product safety.
-*   **Supplier & Customer Management:** Maintain a database of your partners and regular customers.
+### 🔐 Enterprise-Grade Security
+*   **Role-Based Access (RBAC):** Distinct permissions for Admins, Pharmacists, and Assistants.
+*   **Data Protection:** Secure password hashing (BCRYPT) and CSRF token verification for all forms.
 
-### 🌍 Localization & UI | التعريب وواجهة المستخدم
-*   **Bilingual Support:** Switch between Arabic (RTL) and English (LTR) with one click.
-*   **Responsive Design:** Fully compatible with desktops, tablets, and mobile devices.
-*   **Beautiful Typography:** Uses the "Tajawal" font for a clean Arabic UI.
-
-### 🔐 Security & Roles | الأمان والصلاحيات
-*   **Role-Based Access:** Different permissions for Admin, Pharmacist, and Assistant.
-*   **Secure Authentication:** Built with password hashing and CSRF protection.
-
----
-
-## 🛠️ Technology Stack | التقنيات المستخدمة
-*   **Core:** PHP (7.4+)
-*   **Database:** MySQL (PDO for secure connections)
+## 🛠️ Tech Stack
+*   **Backend:** PHP 7.4+
+*   **Database:** MySQL (MariaDB) using PDO Extension
 *   **Frontend:** Bootstrap 5, Vanilla JavaScript, CSS3
 *   **Icons:** Bootstrap Icons
 
----
+## 💻 Installation Guide
 
-## 💻 Installation | طريقة التثبيت
+### Prerequisites
+*   A local server environment (XAMPP, WAMP, or Laragon).
+*   PHP 7.4 or higher.
+*   MySQL/MariaDB.
 
-### Prerequisites | المتطلبات
-*   XAMPP or any local PHP server.
-*   MySQL Database.
+### Setup Instructions
+1.  **Download:** Clone or download the repository to your `htdocs` directory.
+2.  **Database Setup:**
+    *   Create a database named `pharmacy_managements`.
+    *   Import the provided `pharmacy_managements.sql` file via phpMyAdmin.
+3.  **Config:** Update `config/constants.php` with your local URL.
+4.  **Run:** Access the project via `localhost/pharmacy_management`.
 
-### Step-by-Step | الخطوات
-1.  **Clone the project:** Download the folder and place it in `C:\xampp\htdocs\`.
-2.  **Import Database:** 
-    *   Open `phpMyAdmin`.
-    *   Create a new database named `pharmacy_managements`.
-    *   Import the file `pharmacy_managements.sql` located in the project root.
-3.  **Configure Environment:**
-    *   Open `config/constants.php`.
-    *   Update `APP_URL` to match your local setup (e.g., `http://localhost/pharmacy_management`).
-4.  **Launch:** Go to `http://localhost/pharmacy_management` in your browser.
-
-### Default Credentials | بيانات الدخول الافتراضية
+### Default Accounts
 *   **Admin:** `admin` / `admin123`
 *   **Staff:** `staff` / `staff123`
 
----
+## 📄 License
+This software is provided for educational and business management purposes.
 
-## 📄 License | الترخيص
-This project is open-source and free to use for educational and commercial purposes.
-
----
-
-## 👨‍💻 Author | المطور
-**Abdullah Qawi Moqbel**
+## ✍️ Author
+**Abdullqawi Moqbel**
 [GitHub Profile](https://github.com/abdullqawimoqpel)
